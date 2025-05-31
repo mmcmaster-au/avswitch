@@ -1,0 +1,308 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "27d99f64-5b59-4054-806e-9fbbdd7153e5")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 21.59 17.78)
+		(size 49.53 33.02)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "08549ada-6868-4ac5-b6b2-0f32e0463b48")
+		(property "Sheetname" "Overview"
+			(at 21.59 17.0684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "overview.kicad_sch"
+			(at 21.59 51.3846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "avswitch"
+				(path "/27d99f64-5b59-4054-806e-9fbbdd7153e5"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 21.59 66.04)
+		(size 50.8 36.83)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0be7a910-3b00-4ba3-a9df-bd92f4868cf3")
+		(property "Sheetname" "RCA Inputs"
+			(at 21.59 65.3284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "inputs.kicad_sch"
+			(at 21.59 103.4546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "avswitch"
+				(path "/27d99f64-5b59-4054-806e-9fbbdd7153e5"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 80.01 151.13)
+		(size 53.34 35.56)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "11f1dc4d-d572-444d-82cb-b1131c8e8aa5")
+		(property "Sheetname" "Simulation"
+			(at 80.01 150.4184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "simulation.kicad_sch"
+			(at 80.01 187.2746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "avswitch"
+				(path "/27d99f64-5b59-4054-806e-9fbbdd7153e5"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 80.01 66.04)
+		(size 53.34 36.83)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4990e361-696a-4bfd-a45a-44ed825fbcfd")
+		(property "Sheetname" "Output"
+			(at 80.01 65.3284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "output.kicad_sch"
+			(at 80.01 103.4546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "avswitch"
+				(path "/27d99f64-5b59-4054-806e-9fbbdd7153e5"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 21.59 107.95)
+		(size 50.8 36.83)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "981ec02f-e6ae-4b49-922d-4b48e01951cb")
+		(property "Sheetname" "Power"
+			(at 21.59 107.2384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 21.59 145.3646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "avswitch"
+				(path "/27d99f64-5b59-4054-806e-9fbbdd7153e5"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 21.59 151.13)
+		(size 50.8 35.56)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c1284241-b65d-4b10-93e0-c9e4a3c74400")
+		(property "Sheetname" "Switch"
+			(at 21.59 150.4184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "switch.kicad_sch"
+			(at 21.59 187.2746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "avswitch"
+				(path "/27d99f64-5b59-4054-806e-9fbbdd7153e5"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 80.01 107.95)
+		(size 53.34 36.83)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "cd0307b4-4503-4185-ab78-be813a4c5223")
+		(property "Sheetname" "buttons"
+			(at 80.01 107.2384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "buttons.kicad_sch"
+			(at 80.01 145.3646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "avswitch"
+				(path "/27d99f64-5b59-4054-806e-9fbbdd7153e5"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

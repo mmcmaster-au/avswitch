@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "avswitch")(type "KiCad")(uri "${KIPRJMOD}/avswitch.pretty")(options "")(descr ""))
+)
