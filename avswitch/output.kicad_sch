@@ -1321,6 +1321,12 @@
 		(uuid "3d7ec267-e083-4b36-be52-7d23e2621ed9")
 	)
 	(junction
+		(at 227.965 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0a126972-cb2a-4e1e-81ea-90914225c531")
+	)
+	(junction
 		(at 109.22 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1417,6 +1423,12 @@
 		(uuid "905c6cb1-8805-4d45-83be-7575d718d60f")
 	)
 	(junction
+		(at 167.005 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9523de24-1766-440d-b6e5-61ef3a48fd86")
+	)
+	(junction
 		(at 104.14 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1487,6 +1499,16 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f4a4188c-992a-479b-94af-632f8b26db70")
+	)
+	(wire
+		(pts
+			(xy 226.695 69.85) (xy 227.965 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "023afeb7-346b-4e32-9923-22ccc46da64e")
 	)
 	(wire
 		(pts
@@ -1780,6 +1802,16 @@
 	)
 	(wire
 		(pts
+			(xy 227.965 69.85) (xy 233.68 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5590411a-a5d4-4677-8d1c-e7730bbcb1a6")
+	)
+	(wire
+		(pts
 			(xy 110.49 63.5) (xy 109.22 63.5)
 		)
 		(stroke
@@ -1840,7 +1872,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 69.85) (xy 233.68 69.85)
+			(xy 220.98 69.85) (xy 221.615 69.85)
 		)
 		(stroke
 			(width 0)
@@ -2030,7 +2062,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 69.85) (xy 172.72 69.85)
+			(xy 160.02 69.85) (xy 160.655 69.85)
 		)
 		(stroke
 			(width 0)
@@ -2060,6 +2092,16 @@
 	)
 	(wire
 		(pts
+			(xy 165.735 69.85) (xy 167.005 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a46bb94c-f3b5-4ff0-8172-6e07516a1a8f")
+	)
+	(wire
+		(pts
 			(xy 193.04 63.5) (xy 196.215 63.5)
 		)
 		(stroke
@@ -2067,6 +2109,16 @@
 			(type default)
 		)
 		(uuid "a92ab911-060f-4e67-be48-49bb64865845")
+	)
+	(wire
+		(pts
+			(xy 227.965 77.47) (xy 227.965 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab8b30e5-3ee3-4cf9-aa3f-e92c9c773548")
 	)
 	(wire
 		(pts
@@ -2100,6 +2152,16 @@
 	)
 	(wire
 		(pts
+			(xy 167.005 69.85) (xy 172.72 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1b16c03-8616-4570-9109-ffa5c69da1a9")
+	)
+	(wire
+		(pts
 			(xy 80.01 66.04) (xy 81.28 66.04)
 		)
 		(stroke
@@ -2117,6 +2179,16 @@
 			(type default)
 		)
 		(uuid "b98bc71b-d5e0-44af-ae8b-ab87851df3c0")
+	)
+	(wire
+		(pts
+			(xy 167.005 77.47) (xy 167.005 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9df57ed-bda4-458a-8b85-45300c11fcc4")
 	)
 	(wire
 		(pts
@@ -2528,6 +2600,564 @@
 			)
 		)
 	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 118.11 99.06 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "00210786-7340-480e-8895-db68f78abf73")
+		(property "Netclass" "VIDEO"
+			(at 118.8085 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 44.45 65.405 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 26.67 99.06 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "04f2c5a8-3799-4f5b-8a82-df7212d3f14c")
+		(property "Netclass" "VIDEO"
+			(at 27.3685 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -46.99 65.405 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 54.61 30.48 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "081f0239-81fd-4023-a7d4-0b2664f92902")
+		(property "Netclass" "VIDEO"
+			(at 55.3085 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -19.05 -3.175 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 26.67 27.94 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "183147bd-e7b6-40f6-97ba-636e5cdb9db6")
+		(property "Netclass" "VIDEO"
+			(at 27.3685 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -46.99 -5.715 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 54.61 101.6 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1f96b223-a7cd-47aa-8833-081c0d5238a2")
+		(property "Netclass" "VIDEO"
+			(at 55.3085 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -19.05 67.945 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 90.17 30.48 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3710e95c-2e5e-45ef-9875-42da203136f6")
+		(property "Netclass" "VIDEO"
+			(at 90.8685 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 16.51 -3.175 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 54.61 66.04 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3eb2f37a-97f0-46bb-8b71-b50650624104")
+		(property "Netclass" "VIDEO"
+			(at 55.3085 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -19.05 32.385 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 90.17 101.6 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "509e3d65-0ffd-44ef-886e-d1975f8bbff6")
+		(property "Netclass" "VIDEO"
+			(at 90.8685 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 16.51 67.945 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 63.5 101.6 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "525e7466-fb88-4311-9137-d523dd2643a5")
+		(property "Netclass" "VIDEO"
+			(at 64.1985 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -10.16 67.945 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 80.645 101.6 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "71c42581-24b8-41c9-9bbd-18ab3762edc9")
+		(property "Netclass" "VIDEO"
+			(at 81.3435 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 6.985 67.945 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 26.67 63.5 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7c4287af-8968-4e51-8e57-c5c660da8645")
+		(property "Netclass" "VIDEO"
+			(at 27.3685 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -46.99 29.845 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 62.865 66.04 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7ff8a426-6119-4161-a32a-5d1175d962d5")
+		(property "Netclass" "VIDEO"
+			(at 63.5635 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -10.795 32.385 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 90.17 66.04 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "96440d2c-9715-44cf-b82b-e7037265dd21")
+		(property "Netclass" "VIDEO"
+			(at 90.8685 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 16.51 32.385 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 118.11 63.5 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9653e1e8-4cc1-40fa-aeaf-832e37dbc440")
+		(property "Netclass" "VIDEO"
+			(at 118.8085 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 44.45 29.845 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 117.475 27.94 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9c3c9f8b-03df-426f-80d9-3b03f508cb97")
+		(property "Netclass" "VIDEO"
+			(at 118.1735 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 43.815 -5.715 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 80.645 30.48 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c494c567-d996-47b1-adb9-ee8af75f0710")
+		(property "Netclass" "VIDEO"
+			(at 81.3435 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 6.985 -3.175 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 63.5 30.48 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d9babc7b-bd57-43b7-9acd-91d00ba5a690")
+		(property "Netclass" "VIDEO"
+			(at 64.1985 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -10.16 -3.175 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 80.645 66.04 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e2c644f5-930c-4a01-9e7e-cea2e930ae66")
+		(property "Netclass" "VIDEO"
+			(at 81.3435 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 6.985 32.385 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "power:+2V5")
 		(at 181.61 25.4 0)
@@ -2596,7 +3226,7 @@
 	(symbol
 		(lib_id "avswitch:RS8754")
 		(at 46.99 78.74 0)
-		(unit 3)
+		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2693,7 +3323,7 @@
 			(project ""
 				(path "/27d99f64-5b59-4054-806e-9fbbdd7153e5/4990e361-696a-4bfd-a45a-44ed825fbcfd"
 					(reference "U601")
-					(unit 3)
+					(unit 2)
 				)
 			)
 		)
@@ -3399,7 +4029,7 @@
 	(symbol
 		(lib_id "avswitch:RS8754")
 		(at 46.99 43.18 0)
-		(unit 1)
+		(unit 4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -3496,7 +4126,7 @@
 			(project ""
 				(path "/27d99f64-5b59-4054-806e-9fbbdd7153e5/4990e361-696a-4bfd-a45a-44ed825fbcfd"
 					(reference "U601")
-					(unit 1)
+					(unit 4)
 				)
 			)
 		)
@@ -3637,10 +4267,77 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 227.965 90.17 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "340a5264-bda7-44b0-bf81-acabb8f6e293")
+		(property "Reference" "#PWR0629"
+			(at 227.965 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 227.965 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 227.965 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 227.965 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 227.965 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3f058013-64d6-49b3-a43a-41945e3ee38b")
+		)
+		(instances
+			(project "avswitch"
+				(path "/27d99f64-5b59-4054-806e-9fbbdd7153e5/4990e361-696a-4bfd-a45a-44ed825fbcfd"
+					(reference "#PWR0629")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "avswitch:RS8754")
 		(at 97.79 43.18 0)
 		(mirror y)
-		(unit 2)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -3737,7 +4434,76 @@
 			(project ""
 				(path "/27d99f64-5b59-4054-806e-9fbbdd7153e5/4990e361-696a-4bfd-a45a-44ed825fbcfd"
 					(reference "U601")
-					(unit 2)
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 227.965 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "38cd2420-3ef3-43e0-9e48-39d26b6c8cb1")
+		(property "Reference" "R634"
+			(at 227.203 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K"
+			(at 227.457 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 226.187 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 227.965 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 227.965 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e94b72a2-6b61-4c64-b816-bd96e7ef4cb9")
+		)
+		(pin "1"
+			(uuid "af0c39b0-a4bb-44c4-b7b5-2cff085c4f8c")
+		)
+		(instances
+			(project "avswitch"
+				(path "/27d99f64-5b59-4054-806e-9fbbdd7153e5/4990e361-696a-4bfd-a45a-44ed825fbcfd"
+					(reference "R634")
+					(unit 1)
 				)
 			)
 		)
@@ -3948,7 +4714,7 @@
 		(lib_id "avswitch:RS8754")
 		(at 97.79 78.74 0)
 		(mirror y)
-		(unit 4)
+		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -4045,7 +4811,7 @@
 			(project ""
 				(path "/27d99f64-5b59-4054-806e-9fbbdd7153e5/4990e361-696a-4bfd-a45a-44ed825fbcfd"
 					(reference "U601")
-					(unit 4)
+					(unit 3)
 				)
 			)
 		)
@@ -4190,6 +4956,140 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 163.195 69.85 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "47a57621-f058-428f-b6bb-14815d8839e3")
+		(property "Reference" "C611"
+			(at 163.195 64.516 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1.0uF"
+			(at 163.195 66.802 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 163.195 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 163.195 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 163.195 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "575fe4d6-6945-462a-b5c7-f5086f213bc0")
+		)
+		(pin "2"
+			(uuid "31bb16af-f289-4030-a70e-86f240fb9bb0")
+		)
+		(instances
+			(project "avswitch"
+				(path "/27d99f64-5b59-4054-806e-9fbbdd7153e5/4990e361-696a-4bfd-a45a-44ed825fbcfd"
+					(reference "C611")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 224.155 69.85 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "481106c5-dfaa-4c31-b8f1-d5f119180959")
+		(property "Reference" "C612"
+			(at 224.155 64.516 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1.0uF"
+			(at 224.155 66.802 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 224.155 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 224.155 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 224.155 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8708540e-5d69-4a97-b015-ed28b4d5ab31")
+		)
+		(pin "2"
+			(uuid "7bb7f1b4-d83a-409b-9290-fff5bef2883e")
+		)
+		(instances
+			(project "avswitch"
+				(path "/27d99f64-5b59-4054-806e-9fbbdd7153e5/4990e361-696a-4bfd-a45a-44ed825fbcfd"
+					(reference "C612")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 104.14 77.47 0)
 		(mirror x)
@@ -4254,6 +5154,73 @@
 			(project "avswitch"
 				(path "/27d99f64-5b59-4054-806e-9fbbdd7153e5/4990e361-696a-4bfd-a45a-44ed825fbcfd"
 					(reference "R620")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 167.005 90.17 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4b7bdc0c-d3cc-4355-bccf-7ce8176d2bf8")
+		(property "Reference" "#PWR0628"
+			(at 167.005 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 167.005 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 167.005 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.005 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 167.005 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d40d8543-a30f-49fe-b82c-b33d1301b365")
+		)
+		(instances
+			(project "avswitch"
+				(path "/27d99f64-5b59-4054-806e-9fbbdd7153e5/4990e361-696a-4bfd-a45a-44ed825fbcfd"
+					(reference "#PWR0628")
 					(unit 1)
 				)
 			)
@@ -4736,6 +5703,75 @@
 			(project "avswitch"
 				(path "/27d99f64-5b59-4054-806e-9fbbdd7153e5/4990e361-696a-4bfd-a45a-44ed825fbcfd"
 					(reference "R605")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 167.005 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5e6e7bb4-15f3-48ac-b1b9-bc21b34e75de")
+		(property "Reference" "R633"
+			(at 166.243 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K"
+			(at 166.497 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 165.227 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 167.005 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 167.005 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d9e0875a-3332-49e3-8385-fa9ca8384c0e")
+		)
+		(pin "1"
+			(uuid "8f5b36f8-84e3-4713-9591-1e85185d2cad")
+		)
+		(instances
+			(project "avswitch"
+				(path "/27d99f64-5b59-4054-806e-9fbbdd7153e5/4990e361-696a-4bfd-a45a-44ed825fbcfd"
+					(reference "R633")
 					(unit 1)
 				)
 			)

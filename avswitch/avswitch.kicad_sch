@@ -51,9 +51,9 @@
 		(at 21.59 66.04)
 		(size 50.8 36.83)
 		(exclude_from_sim yes)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
