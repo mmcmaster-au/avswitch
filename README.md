@@ -1,10 +1,10 @@
 # 6-Input Component+composite Video Switcher
-The motivation for this project is to connect 5 retro game consoles to a TV (plus 1 spare for future expansion). The commercially available switches either lack sufficient inputs, or are prohibitively expensive.
+The motivation behind this project is to connect 5 retro game consoles to a TV (plus 1 spare for future expansion). The commercially available switches either lack sufficient inputs, or are prohibitively expensive.
 
 The switch will support both component and composite video to provide some flexibility. All of the consoles support composite video. Most of them support component video, though I don't own all the required cables yet. Some (eg. N64 Pal) require a mod to support component video output. Some (eg. PS2) may need a composite connection to enable the the component output.
 
 ## Design
-For aesthetic and cable management reasons I want all input RCA connectors to be at rear of the unit. The front of the unit will have a selector button plus a display to indicate which input is selected. The display will also show auto scanning status, assuming I end up implementing such a feature.
+For aesthetic and cable management reasons I want all RCA connectors to be at rear of the unit. The front of the unit will have a selector button plus a display to indicate which input is selected. The display will also show auto scanning status, assuming I end up implementing such a feature.
 
 The longest side of the PCB should be 200mm or less. This requirement means the rear needs to be angled in order to fit enough RCA jacks. The 200mm limit is to allow 3d printing a case using common 3d printers - my own 3D printer has a build volume of 220x220x250mm.
 
@@ -31,7 +31,7 @@ The goal of the project is to connect a mix of 480p/576p consoles and a 720p/108
 
 [Analog Devices AN-944 "Signal Bandwidth vs. Resolution for Analog Video"](https://www.analog.com/media/en/technical-documentation/application-notes/7378546an_944.pdf) specifies 37.13MHz bandwidth is needed for 1080i.
 
-Multiplexer IC bandwidth is often specified at a -3dB level, so looking for at a device that supports at least 50Mhz will be required for a good picture. 
+Multiplexer IC bandwidth is often specified at a -3dB level, so a device that supports at least 50Mhz will be required for a good picture. 
 
 A search for applicable parts comes up with 2 categories:
 - Cheap ICs with a high _Ron_ impedence
@@ -58,7 +58,20 @@ The display will be a common 128x32 0.91" OLED panel, based on the SSD1306 Drive
 There's not much processing required in the project, so the goal here was to use something easy to program and flash. An Arduino Nano is trivial to flash over USB, includes libraries for outputting to the display, and the clone versions are readily available and cheap.
 
 ## Power Requirements
-The device will be powered by a DC Barrel Jack of the most common size, 5.5mm outer diameter, 2.1mm inner diameter, center positive. The input will be regulated 5V DC. Selecting a single input voltage simplifies part selection, and a low voltage reduces the impact of DC Bias on capacitors.
+The device will be powered by regulated 5V via USB-C as a `UFP` (Upstream facing port - 5.1K resistors to ground on both CC pins). There's no need to negotiate power via USB-PD or similar since we need less than 15W. However since we can draw more than the 500mA offered by legacy USB ports we need to check the connected cable and charger is correct (USB-C) before enabling the multiplexer ICs. This can be done by checking the voltage range on the CC pins (whichever is higher): [source](https://dubiouscreations.com/2021/04/06/designing-with-usb-c-lessons-learned/)
+
+| Voltage | Current Available | Enable multiplexers ? |
+| -- | -- | -- |
+| < 0.2V | No connection | No |
+| 0.2 <= CC < 0.66V | 500mA, Legacy USB | No |
+| 0.66 <= CC <= 1.23V | 1.5A | Yes |
+| CC > 1.23V | 3A | Yes |
+
+The USB socket part can be either Same Sky UJC-H-G-SMT-2-P6-TR, or GCT USB4125-GF-A-0190. Each use an indentical footprint and suitable for 1.6mm PCB. These parts only offer the minimal pins needed for power, which makes them considerably easier to solder than a connector with all the data pins.
+
+The USB standard limits Vbus to only 10uF capacitance seen when plugged in. ie. inrush current must not be greater than that of a 10uF capacitor. We'll easily exceed that with the 2x voltage regulator input caps (22uF each), and a large bulk cap, so a usb power switch is needed. Diodes Inc [AP22816B](https://www.diodes.com/datasheet/download/AP22816+17+18.pdf) is only $0.18, supports 1A, and is designed for USB. If needed the higher capacity AP22817B or AP22818B can be used to support 1.5A/2A respectively.
+
+Selecting a single input voltage simplifies part selection, and a low voltage reduces the impact of DC Bias on capacitors (eg. vs using a DC barrel jack and 7-12V input).
 
 The Arduino Nano can be powered directly from the 5V DC input via pin 27. The display is also powered directly by 5V. Everything else will use a cleaner/filtered power supply.
 
@@ -93,7 +106,7 @@ Generating a -2.5V supply can be done easily with either a charge pump or Cuk co
 I've discounted a single split-rail buck converter as it may struggle to maintain regulation with light loads and different loads on each rail.
 
 ## Capacitor Selection
-A large 470uF aluminium polymer cap will be used as the bulk capacitor on the DC input.
+A large 100uF aluminium polymer cap (KYOCERA AVX RPA0609101M025B, 25V, 30mOhm ESR) will be used as the bulk capacitor on the power switch output. The AP22816B power switch requires at least 100uF according to the datasheet.
 
 I've assumed ceramic SMD capacitors are used at the input and output of the switching regulators based on cost. It would be possible to use Film Capacitors for better tolerances, but they cost too much and are physically too large.
 
@@ -113,7 +126,7 @@ In general, the larger package sizes exhibit better DC-bias characteristics.
 
 For the 22uF capacitor 0805 is too small for 22uF, and doesn't even come in a X7R version nor a 25V rated version. 1210 looks to be the sweet spot.
 
-For the 100uF capacitor (>= 4x 22uF needed for LC parallel damping filter) it's unlikely that a suitable ceramic cap can be found for a reasonable price. Aluminium-polymer cap have low-enough ESR, however the ESR varies with frequency and may be higher than rated at the LC filter cutoff frequency. As such I've chosen to simply place 4 discrete 22uF caps in parallel as a fool-proof solution.
+For the 100uF capacitor (>= 4x 22uF needed for LC parallel damping filter) it's unlikely that a suitable ceramic cap can be found for a reasonable price. Aluminium-polymer cap have low-enough ESR, however the ESR varies with frequency and will be higher than rated at the LC filter cutoff frequency. As such I've chosen to simply place 4 discrete 22uF caps in parallel as a fool-proof solution.
 
 ## Power Supply Filtering
 The RS8754XP has a typical PSRR of 90dB, though it's unclear what frequency that is measured at - possibly only at 100Hz. The low-pass filters should be at a sufficiently low cut-off frequency that we can assume the PSRR of the opamp at unfiltered frequencies will be good enough.
@@ -190,7 +203,7 @@ Assuming $`R_{rbb} = 10k, R_{fbt} = 31666`$ (or 31.6k using standard resistor va
 
 $`\frac {0.6 \times {(31600 + 10000)}}{10000} = 2.496V`$
 
-## Inductor Ripple
+### Inductor Ripple
 Peak-to-peak ripple current:
 
 $`I_{P-P} = \frac{V_{out}}{V_{in(max)}} \times \frac{V_{in(max)} - V_{out}}{L_{out}\times f_{sw}} = \frac{2.5}{5} \times \frac{5 - 2.5}{2.2uH \times 1,280,000} = 444mA`$
@@ -201,7 +214,7 @@ $`I_{peak} = I_{out} + \frac {I_{P-P}}{2} = 0.5921 + \frac {0.444}{2} = 814mA`$
 Based on these values, I've chosen Taiyo Yuden NRS4018T2R2MDGJ, with 2.2A current rating, 3A saturation, and low 50.4mΩ DCR.
 
 ## PCB Design
-The upper and lower sections will both use the same PCB, but with different components placed. This is to save cost, as generally the minimum order is 5 PCBs.
+The upper and lower sections will both use the same PCB, but with different components placed. This is to save cost, as generally the minimum order is 5 PCBs for hobbiest boards (eg. at JLPCB)
 
 The video signals between the upper and lower PCBs will travel over 5cm 1.0mm pitch inverting ("Type 2" / "Type D") [FFC](https://en.wikipedia.org/wiki/Flexible_flat_cable). Such cables are dirt cheap and readily available.
 
@@ -223,3 +236,12 @@ Using values from JLPCB's 4-layer JLC04161H-7628 Impedance Control Stackup:
 
 Assuming one of the inner layers is used for power rails, the impedence controlled traces are constrained to the top copper layer only.
 
+## ESD
+This [Hackaday](https://hackaday.com/2025/06/19/hacker-tactic-esd-diodes/) article convinced me to add extra ESD protection on all external signals (eg. all RCA connectors and the USB connector)
+
+This document [OnSemi AND8424/D Unidirectional versus
+Bidirectional Protection](https://www.mouser.com/pdfdocs/AND8424-D.PDF) explains the difference between unidirectional and biderectional TVS diodes. For the video signals (-1V <= signal <= 1V) bidirectional protection is needed. Unidirectional is sufficient for the USB CC signals connected to the arduino ADC.
+
+For the video signals individual TVS diodes will be used to ease PCB routing. The part needs to be low capacitance (<= 5pF), SOD-323 package, 3.3V standoff voltage `Vwm`, 4V Breakdown voltage `Vbr`. eg. SMC SD03LCC
+
+The USB CC lines connected to the arduino need 5V unidirectional protection, use SRV05-4 in SOT23-6 package (multiple suppliers).

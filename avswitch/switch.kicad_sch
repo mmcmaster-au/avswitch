@@ -1219,6 +1219,168 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:D_TVS_Filled"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D_TVS_Filled"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Bidirectional transient-voltage-suppression diode, filled shape"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode TVS thyrector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_TVS_Filled_0_1"
+				(polyline
+					(pts
+						(xy -2.54 -1.27) (xy 0 0) (xy -2.54 1.27) (xy -2.54 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 1.27) (xy 0 1.27) (xy 0 -1.27) (xy -0.508 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy 2.54 -1.27) (xy 0 0) (xy 2.54 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "D_TVS_Filled_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -5723,6 +5885,12 @@
 		(uuid "065bf989-dd31-469e-87fc-dc57db57b2e5")
 	)
 	(junction
+		(at 284.48 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0b7b65af-4ab3-442e-a305-38e753fff347")
+	)
+	(junction
 		(at 128.27 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5769,6 +5937,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1c847cb4-49df-4dd2-a06a-afcb6953870f")
+	)
+	(junction
+		(at 254 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2069cfa8-cd84-4714-ab34-27a08e63f877")
 	)
 	(junction
 		(at 204.47 101.6)
@@ -5885,6 +6059,12 @@
 		(uuid "3dc8cc47-baab-4590-97f2-6dc96fea799a")
 	)
 	(junction
+		(at 223.52 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3e09166a-52b2-4762-af61-81b0b404ff4e")
+	)
+	(junction
 		(at 220.98 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5993,10 +6173,52 @@
 		(uuid "71842956-eee1-4ca0-8785-831324a29f5b")
 	)
 	(junction
+		(at 254 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "72972365-f497-45fe-85dc-b4fceaf6363b")
+	)
+	(junction
+		(at 254 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "73488cb3-fef3-4885-9170-ef7e31dd8f74")
+	)
+	(junction
+		(at 254 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7348eae8-0e46-4f45-8f97-347f0d71d779")
+	)
+	(junction
+		(at 284.48 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "744a1d56-8d73-4d60-8bc6-3b7d994c4123")
+	)
+	(junction
+		(at 223.52 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7999a6c1-4ef1-4274-9c68-31329516eba2")
+	)
+	(junction
 		(at 266.7 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7c4039bc-b2cf-4be2-b9ae-ca0742be10d3")
+	)
+	(junction
+		(at 223.52 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7e1fd816-cf76-42c6-b895-13c3684e3162")
+	)
+	(junction
+		(at 223.52 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7e3329aa-19ff-42d8-a28c-7a78faeb410a")
 	)
 	(junction
 		(at 156.21 21.59)
@@ -6023,6 +6245,12 @@
 		(uuid "89390fd5-789c-434e-a3d6-72772ff18b26")
 	)
 	(junction
+		(at 284.48 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8b0ff959-71c8-42a5-82e2-bd6062ab2113")
+	)
+	(junction
 		(at 257.81 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6039,6 +6267,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9b61283b-0341-43bc-9273-0fd2b13f7d99")
+	)
+	(junction
+		(at 284.48 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a258ed8f-8fbc-4e8a-af71-571292dbc9da")
 	)
 	(junction
 		(at 88.9 129.54)
@@ -6125,6 +6359,12 @@
 		(uuid "c3796019-e422-4121-b908-371205f8657e")
 	)
 	(junction
+		(at 284.48 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c441fdbd-397d-495e-9831-24d1f39105fd")
+	)
+	(junction
 		(at 113.03 24.13)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6209,10 +6449,22 @@
 		(uuid "d14ed1df-f5fa-4967-8716-83460b9c584b")
 	)
 	(junction
+		(at 223.52 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d2be4fd6-6cd6-4006-86e1-84c4ac88cacc")
+	)
+	(junction
 		(at 88.9 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d4aeaf99-4998-405c-9bae-8e050b821a72")
+	)
+	(junction
+		(at 254 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "df2df7e9-89b8-409f-96be-9353601653f7")
 	)
 	(junction
 		(at 88.9 124.46)
@@ -6316,6 +6568,16 @@
 	)
 	(wire
 		(pts
+			(xy 269.24 77.47) (xy 276.86 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0636fc5d-b4f5-4414-98b2-8e97bd513068")
+	)
+	(wire
+		(pts
 			(xy 113.03 36.83) (xy 113.03 45.72)
 		)
 		(stroke
@@ -6346,6 +6608,16 @@
 	)
 	(wire
 		(pts
+			(xy 208.28 82.55) (xy 215.9 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08717d75-a2a2-4a5d-aabe-b0be60cb90bd")
+	)
+	(wire
+		(pts
 			(xy 182.88 67.31) (xy 180.34 67.31)
 		)
 		(stroke
@@ -6373,6 +6645,16 @@
 			(type default)
 		)
 		(uuid "09811241-5f1d-4b69-adaa-754df278cbab")
+	)
+	(wire
+		(pts
+			(xy 223.52 67.31) (xy 223.52 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09861285-1d8c-4727-a35f-604c4005a750")
 	)
 	(wire
 		(pts
@@ -6433,6 +6715,16 @@
 			(type default)
 		)
 		(uuid "0ca4653b-29f7-46c0-85b1-476a7f8cd15c")
+	)
+	(wire
+		(pts
+			(xy 223.52 77.47) (xy 223.52 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13a47db2-a97b-4698-9eab-9385073f16a5")
 	)
 	(wire
 		(pts
@@ -6533,6 +6825,16 @@
 			(type default)
 		)
 		(uuid "2555c2b0-1fee-487c-af21-5d83888fcefd")
+	)
+	(wire
+		(pts
+			(xy 284.48 72.39) (xy 284.48 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "270d2b17-03d6-4d42-8105-b60757338d7a")
 	)
 	(wire
 		(pts
@@ -6786,6 +7088,16 @@
 	)
 	(wire
 		(pts
+			(xy 238.76 77.47) (xy 246.38 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3632b383-0c04-4ce7-8bf6-e810a49e2ac4")
+	)
+	(wire
+		(pts
 			(xy 125.73 43.18) (xy 128.27 43.18)
 		)
 		(stroke
@@ -6813,6 +7125,26 @@
 			(type default)
 		)
 		(uuid "37ad48a6-c195-4b2f-988e-017de4e531c2")
+	)
+	(wire
+		(pts
+			(xy 208.28 57.15) (xy 215.9 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3853218d-d58c-4710-af1f-d02a2f50e8c9")
+	)
+	(wire
+		(pts
+			(xy 254 57.15) (xy 254 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39802513-42df-4109-ae59-3b4683cdee03")
 	)
 	(wire
 		(pts
@@ -6893,6 +7225,16 @@
 			(type default)
 		)
 		(uuid "3f74b3bd-53df-4691-8c86-162c00f00d8c")
+	)
+	(wire
+		(pts
+			(xy 238.76 72.39) (xy 246.38 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40780bf6-7476-44b4-a87f-1b8d2605d6ed")
 	)
 	(wire
 		(pts
@@ -7026,6 +7368,26 @@
 	)
 	(wire
 		(pts
+			(xy 208.28 72.39) (xy 215.9 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5568e5b7-d838-47b1-880e-575e475634f5")
+	)
+	(wire
+		(pts
+			(xy 208.28 67.31) (xy 215.9 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "564e765c-1efe-415c-a9ca-102d12a07bf7")
+	)
+	(wire
+		(pts
 			(xy 88.9 124.46) (xy 106.68 124.46)
 		)
 		(stroke
@@ -7033,6 +7395,26 @@
 			(type default)
 		)
 		(uuid "56ddb89c-edef-493c-8276-c7ff98a846bb")
+	)
+	(wire
+		(pts
+			(xy 269.24 82.55) (xy 276.86 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59f43fa3-5ad1-4845-8e0d-084c81dc371f")
+	)
+	(wire
+		(pts
+			(xy 238.76 62.23) (xy 246.38 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b345792-aa64-4508-a091-bd9f1ed2ccd3")
 	)
 	(wire
 		(pts
@@ -7256,6 +7638,16 @@
 	)
 	(wire
 		(pts
+			(xy 208.28 77.47) (xy 215.9 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "755174d1-4f74-4061-aaf8-a381f8761e7a")
+	)
+	(wire
+		(pts
 			(xy 266.7 39.37) (xy 266.7 29.21)
 		)
 		(stroke
@@ -7263,6 +7655,26 @@
 			(type default)
 		)
 		(uuid "760ab835-ec56-4935-93e0-7c54f096e3bb")
+	)
+	(wire
+		(pts
+			(xy 223.52 62.23) (xy 223.52 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78c8ff1f-77d1-4f3e-845d-dd9b3f3c08c6")
+	)
+	(wire
+		(pts
+			(xy 208.28 62.23) (xy 215.9 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79d9dd85-5a02-427f-93a1-f7c924e18c5b")
 	)
 	(wire
 		(pts
@@ -7326,6 +7738,16 @@
 	)
 	(wire
 		(pts
+			(xy 269.24 57.15) (xy 276.86 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d560d35-a8f6-44a1-a4a5-07cff42bd8b1")
+	)
+	(wire
+		(pts
 			(xy 204.47 156.21) (xy 207.01 156.21)
 		)
 		(stroke
@@ -7333,6 +7755,26 @@
 			(type default)
 		)
 		(uuid "814f894f-ccff-449e-99e0-d43a86872d9a")
+	)
+	(wire
+		(pts
+			(xy 254 67.31) (xy 254 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "834eeb7c-5ae8-4016-b6c2-eb8de36b7850")
+	)
+	(wire
+		(pts
+			(xy 284.48 82.55) (xy 284.48 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85a3a217-9680-4bee-984c-4e750686ecc7")
 	)
 	(wire
 		(pts
@@ -7416,6 +7858,16 @@
 	)
 	(wire
 		(pts
+			(xy 269.24 67.31) (xy 276.86 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cad98ad-8e07-4228-a7ce-7ed5a359ce2a")
+	)
+	(wire
+		(pts
 			(xy 241.3 113.03) (xy 245.11 113.03)
 		)
 		(stroke
@@ -7486,6 +7938,16 @@
 	)
 	(wire
 		(pts
+			(xy 223.52 57.15) (xy 223.52 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91a2df4d-9676-481e-8417-ac1c5af02c49")
+	)
+	(wire
+		(pts
 			(xy 220.98 31.75) (xy 220.98 34.29)
 		)
 		(stroke
@@ -7543,6 +8005,16 @@
 			(type default)
 		)
 		(uuid "94e3d6fd-d7e3-4e64-a162-9ea3fb923427")
+	)
+	(wire
+		(pts
+			(xy 223.52 72.39) (xy 223.52 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "953927d6-a6ff-4320-98aa-4a422c2661e1")
 	)
 	(wire
 		(pts
@@ -7643,6 +8115,16 @@
 			(type default)
 		)
 		(uuid "98eab6c1-8409-4446-95b6-ce3c1de67c3a")
+	)
+	(wire
+		(pts
+			(xy 254 82.55) (xy 254 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "991868ca-1ec3-4719-8002-b5d49fa520c6")
 	)
 	(wire
 		(pts
@@ -7776,6 +8258,16 @@
 	)
 	(wire
 		(pts
+			(xy 284.48 67.31) (xy 284.48 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a80e343d-95ef-45d9-a04a-1608dfddfa71")
+	)
+	(wire
+		(pts
 			(xy 189.23 83.82) (xy 189.23 90.17)
 		)
 		(stroke
@@ -7803,6 +8295,16 @@
 			(type default)
 		)
 		(uuid "a9a0f4db-7bff-4c32-9b7f-218307b14a91")
+	)
+	(wire
+		(pts
+			(xy 284.48 62.23) (xy 284.48 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aaa83acf-23f6-404e-b811-6f59c4ae4134")
 	)
 	(wire
 		(pts
@@ -8036,6 +8538,16 @@
 	)
 	(wire
 		(pts
+			(xy 269.24 72.39) (xy 276.86 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4e1b6fa-cba4-4eb8-8db3-5c1936d3135f")
+	)
+	(wire
+		(pts
 			(xy 88.9 44.45) (xy 106.68 44.45)
 		)
 		(stroke
@@ -8043,6 +8555,26 @@
 			(type default)
 		)
 		(uuid "c4e76385-116e-44e6-86f6-31757cff4811")
+	)
+	(wire
+		(pts
+			(xy 254 62.23) (xy 254 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5ba53dc-29f8-4757-ae72-ba88b1542d3e")
+	)
+	(wire
+		(pts
+			(xy 254 72.39) (xy 254 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5d736fa-4d46-4f25-97b8-45b14a06de63")
 	)
 	(wire
 		(pts
@@ -8123,6 +8655,16 @@
 			(type default)
 		)
 		(uuid "cb645900-6da0-4d37-bb3e-25cb3926a214")
+	)
+	(wire
+		(pts
+			(xy 269.24 62.23) (xy 276.86 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc13ec31-f021-4b54-a23f-642cb44fe32c")
 	)
 	(wire
 		(pts
@@ -8406,6 +8948,16 @@
 	)
 	(wire
 		(pts
+			(xy 238.76 82.55) (xy 246.38 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e176f670-d0db-43f0-a601-af27698865e8")
+	)
+	(wire
+		(pts
 			(xy 241.3 123.19) (xy 245.11 123.19)
 		)
 		(stroke
@@ -8496,6 +9048,16 @@
 	)
 	(wire
 		(pts
+			(xy 254 77.47) (xy 254 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eaea96d2-7cb9-477b-bc47-3e9e7d45a89c")
+	)
+	(wire
+		(pts
 			(xy 130.81 115.57) (xy 134.62 115.57)
 		)
 		(stroke
@@ -8566,6 +9128,16 @@
 	)
 	(wire
 		(pts
+			(xy 238.76 57.15) (xy 246.38 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef4b4290-5c9d-4508-82e9-fae2dd172ae7")
+	)
+	(wire
+		(pts
 			(xy 147.32 85.09) (xy 148.59 85.09)
 		)
 		(stroke
@@ -8596,6 +9168,16 @@
 	)
 	(wire
 		(pts
+			(xy 238.76 67.31) (xy 246.38 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1185b5a-d520-44f9-9425-54ca72f38097")
+	)
+	(wire
+		(pts
 			(xy 220.98 39.37) (xy 220.98 41.91)
 		)
 		(stroke
@@ -8603,6 +9185,16 @@
 			(type default)
 		)
 		(uuid "f367e556-0465-4429-9ae0-d061d0bf1fde")
+	)
+	(wire
+		(pts
+			(xy 284.48 57.15) (xy 284.48 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f36a6d93-dc18-477f-9b68-dab5121d992c")
 	)
 	(wire
 		(pts
@@ -8676,6 +9268,16 @@
 	)
 	(wire
 		(pts
+			(xy 284.48 77.47) (xy 284.48 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa4dde10-403d-4478-8725-ff71495dba2d")
+	)
+	(wire
+		(pts
 			(xy 156.21 21.59) (xy 160.02 21.59)
 		)
 		(stroke
@@ -8743,6 +9345,16 @@
 			(type default)
 		)
 		(uuid "ff1d8c5f-530b-42e9-98b8-6c68ba670b27")
+	)
+	(wire
+		(pts
+			(xy 223.52 82.55) (xy 223.52 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff29328d-1e73-4c2e-b5ab-bb282295e560")
 	)
 	(wire
 		(pts
@@ -8825,7 +9437,7 @@
 		(uuid "0f698af7-4c19-4d7a-b6ad-ab344cd35e4b")
 	)
 	(label "Comp3"
-		(at 187.96 128.27 0)
+		(at 187.96 123.19 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8855,7 +9467,7 @@
 		(uuid "1d8bd51e-23c5-435b-a7e2-c128bd59840f")
 	)
 	(label "Left4"
-		(at 241.3 130.81 0)
+		(at 241.3 125.73 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8865,7 +9477,7 @@
 		(uuid "2bb3383c-3641-4908-9faa-699988566efe")
 	)
 	(label "Left3"
-		(at 241.3 128.27 0)
+		(at 241.3 123.19 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8935,7 +9547,7 @@
 		(uuid "4975d805-fffc-43b1-9bf9-bc97857a35f9")
 	)
 	(label "Comp4"
-		(at 187.96 130.81 0)
+		(at 187.96 125.73 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8975,7 +9587,7 @@
 		(uuid "5f23c29c-320b-4ead-9a43-8c6bb3b2522c")
 	)
 	(label "Pb1"
-		(at 130.81 113.03 0)
+		(at 130.81 118.11 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8995,7 +9607,7 @@
 		(uuid "673418da-9444-4bc0-ba56-a6bbbe605289")
 	)
 	(label "Left2"
-		(at 241.3 125.73 0)
+		(at 241.3 128.27 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9015,7 +9627,7 @@
 		(uuid "6ad8061a-baef-4d5a-a482-5c3dc17cfe69")
 	)
 	(label "Y3"
-		(at 130.81 128.27 0)
+		(at 130.81 123.19 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9045,7 +9657,7 @@
 		(uuid "755b47cd-7f4b-4db6-956b-e53152aa1ee1")
 	)
 	(label "Comp2"
-		(at 187.96 125.73 0)
+		(at 187.96 128.27 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9065,7 +9677,7 @@
 		(uuid "7e265d53-c15e-4bee-acd9-7c93a9265b5a")
 	)
 	(label "Pr1"
-		(at 187.96 113.03 0)
+		(at 187.96 118.11 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9085,7 +9697,7 @@
 		(uuid "8e0ee27a-f411-4795-96f5-12e79e6175aa")
 	)
 	(label "Left1"
-		(at 241.3 123.19 0)
+		(at 241.3 130.81 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9095,7 +9707,7 @@
 		(uuid "92e2b0f9-8c8d-4ded-947f-de76dea7eb15")
 	)
 	(label "Y2"
-		(at 130.81 125.73 0)
+		(at 130.81 128.27 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9185,7 +9797,7 @@
 		(uuid "d557b9f2-7a63-4f11-aa01-324f249e70f1")
 	)
 	(label "Pr3"
-		(at 187.96 118.11 0)
+		(at 187.96 113.03 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9215,7 +9827,7 @@
 		(uuid "e0b48f16-2260-4477-a507-872fff095963")
 	)
 	(label "Comp1"
-		(at 187.96 123.19 0)
+		(at 187.96 130.81 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9235,7 +9847,7 @@
 		(uuid "e8820624-9787-4402-b460-3cd11770e984")
 	)
 	(label "Y4"
-		(at 130.81 130.81 0)
+		(at 130.81 125.73 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9275,7 +9887,7 @@
 		(uuid "f147a563-1977-4332-8ec2-b47441f2ddf2")
 	)
 	(label "Y1"
-		(at 130.81 123.19 0)
+		(at 130.81 130.81 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9285,7 +9897,7 @@
 		(uuid "f93b8700-746a-4e69-959e-e095cc8a690f")
 	)
 	(label "Pb3"
-		(at 130.81 118.11 0)
+		(at 130.81 113.03 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9293,6 +9905,72 @@
 			(justify left bottom)
 		)
 		(uuid "ff90b954-bcfd-4947-ae20-166fa44d0926")
+	)
+	(global_label "RCA_Comp_2"
+		(shape input)
+		(at 238.76 72.39 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "04bb0bab-1332-456a-aa7e-b7aca9c9e289")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 223.7402 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RCA_Y_1"
+		(shape input)
+		(at 208.28 62.23 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0c28f637-1a97-40d7-aff5-3ea22928860b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 197.4329 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RCA_Left_3"
+		(shape input)
+		(at 149.86 64.77 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0e87401e-1d8a-4600-8bb8-e768369f52d6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 149.86 51.4434 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "SEL_INPUT0"
 		(shape output)
@@ -9316,6 +9994,50 @@
 			)
 		)
 	)
+	(global_label "RCA_Pr_3"
+		(shape input)
+		(at 134.62 43.18 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "24de92ab-98f9-4f30-97bb-d39647609cdd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 134.62 31.3653 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RCA_Y_1"
+		(shape input)
+		(at 55.88 22.86 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "24f62200-e751-405d-b14a-5baff47bbb97")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 55.88 12.0129 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "~{EN_MUX0}"
 		(shape output)
 		(at 191.77 135.89 180)
@@ -9334,6 +10056,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RCA_Pb_3"
+		(shape input)
+		(at 134.62 21.59 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "29e0a59d-d199-4ff6-b45c-46a71750f8c8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 134.62 9.4125 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -9382,6 +10126,72 @@
 			)
 		)
 	)
+	(global_label "RCA_Comp_1"
+		(shape input)
+		(at 208.28 72.39 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3178bf5a-c74b-4e9c-8e7b-732e7199b4b7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 193.2602 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RCA_Left_2"
+		(shape input)
+		(at 238.76 82.55 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "33962e2f-71e7-427f-bcb9-274f58b93902")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 225.4334 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RCA_Right_2"
+		(shape input)
+		(at 238.76 77.47 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "371e43fe-cdd8-4001-8ff9-56e3b1b3462c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 224.103 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SEL_INPUT1"
 		(shape output)
 		(at 191.77 143.51 180)
@@ -9422,6 +10232,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RCA_Y_3"
+		(shape input)
+		(at 269.24 62.23 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "39889da0-0d35-4e39-924b-cfdfeed4bc8e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 258.3929 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -9492,6 +10324,50 @@
 			)
 		)
 	)
+	(global_label "RCA_Y_2"
+		(shape input)
+		(at 238.76 62.23 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5da0086c-65c3-429f-9ea6-bb03537fb27c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 227.9129 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RCA_Pb_3"
+		(shape input)
+		(at 269.24 57.15 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5f602de2-29c4-4216-940e-103558f0eabc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 257.0625 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "RightX"
 		(shape output)
 		(at 270.51 113.03 0)
@@ -9536,6 +10412,28 @@
 			)
 		)
 	)
+	(global_label "RCA_Pr_1"
+		(shape input)
+		(at 208.28 67.31 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "701b2957-812d-4083-a092-a73f24835ee3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 196.4653 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "YX"
 		(shape output)
 		(at 245.745 21.59 90)
@@ -9549,6 +10447,182 @@
 		(uuid "744b33bd-6c75-453e-9147-25b23500e9ba")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 245.745 16.3067 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RCA_Left_3"
+		(shape input)
+		(at 269.24 82.55 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7855c5b7-ca62-4bed-9801-53b40c010e1a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 255.9134 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RCA_Pb_1"
+		(shape input)
+		(at 40.64 22.86 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "793d471b-e9ba-4e55-8cbb-e8a46871935d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 40.64 10.6825 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RCA_Pr_2"
+		(shape input)
+		(at 238.76 67.31 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7a7c4f8f-af66-4e28-b47a-c33094fef66e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 226.9453 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RCA_Comp_2"
+		(shape input)
+		(at 55.88 127 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8557c61f-f06e-4087-a9e7-22b5f95d1783")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 55.88 111.9802 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RCA_Pr_1"
+		(shape input)
+		(at 40.64 44.45 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "87a0faf1-261c-4a2a-992e-b234617fd3e5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 40.64 32.6353 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RCA_Left_1"
+		(shape input)
+		(at 55.88 66.04 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8dfcfd7c-cd5f-450d-bd7b-3b6ffc8ae72d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 55.88 52.7134 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RCA_Comp_1"
+		(shape input)
+		(at 55.88 44.45 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "94023948-d846-4102-99bd-4c5dc6de564c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 55.88 29.4302 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RCA_Right_2"
+		(shape input)
+		(at 40.64 148.59 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "960495b4-e6f2-43df-981c-ba095ef1d4d4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 40.64 133.933 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9598,6 +10672,50 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RCA_Pr_3"
+		(shape input)
+		(at 269.24 67.31 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a8d7373b-f5b0-4fc0-8c6e-193630b15ec2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 257.4253 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RCA_Comp_3"
+		(shape input)
+		(at 149.86 43.18 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b21ce991-a74e-4885-8005-9dabfebbabe6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 149.86 28.1602 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -9668,6 +10786,116 @@
 			)
 		)
 	)
+	(global_label "RCA_Pr_2"
+		(shape input)
+		(at 40.64 127 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c48e68a3-ac31-4f54-8c40-a6095ae3e52a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 40.64 115.1853 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RCA_Right_1"
+		(shape input)
+		(at 208.28 77.47 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c58f8134-d6a5-47c5-8243-35b6fd1d405a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 193.623 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RCA_Right_3"
+		(shape input)
+		(at 134.62 64.77 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cc18528d-60ba-4660-b0ab-dfe0cc97e323")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 134.62 50.113 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RCA_Pb_2"
+		(shape input)
+		(at 40.64 105.41 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cc280e39-0e1a-4600-8e27-37469007ad0d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 40.64 93.2325 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RCA_Pb_1"
+		(shape input)
+		(at 208.28 57.15 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cd372d0a-69be-4b4a-8505-71ebda7ae66c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 196.1025 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SEL_INPUT0"
 		(shape output)
 		(at 245.11 140.97 180)
@@ -9690,6 +10918,72 @@
 			)
 		)
 	)
+	(global_label "RCA_Comp_3"
+		(shape input)
+		(at 269.24 72.39 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d8e72e4e-44d5-4d37-9685-3efb82c722fa")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 254.2202 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RCA_Pb_2"
+		(shape input)
+		(at 238.76 57.15 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e11eaa6a-0add-4b15-9ff1-42a7888a2fc5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 226.5825 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RCA_Y_2"
+		(shape input)
+		(at 55.88 105.41 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e2b1c883-8fef-46e9-9d01-cf4c74eef047")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 55.88 94.5629 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SEL_INPUT0"
 		(shape output)
 		(at 134.62 140.97 180)
@@ -9708,6 +11002,50 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RCA_Left_1"
+		(shape input)
+		(at 208.28 82.55 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e6ca5db9-cb70-4e16-ba6b-532a15e1a6db")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 194.9534 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RCA_Y_3"
+		(shape input)
+		(at 149.86 21.59 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ecaf5044-98be-4c44-ac44-440d40d060a2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 149.86 10.7429 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -9756,10 +11094,76 @@
 			)
 		)
 	)
+	(global_label "RCA_Left_2"
+		(shape input)
+		(at 55.88 148.59 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f30e2f1b-b324-410c-9983-9ed45b26e2b3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 55.88 135.2634 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RCA_Right_3"
+		(shape input)
+		(at 269.24 77.47 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f511a81c-cff6-49fe-9ee0-9ab25b2284b0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 254.583 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RCA_Right_1"
+		(shape input)
+		(at 40.64 66.04 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fae33550-dbda-484a-86ef-2d5c0a07956d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 40.64 51.383 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 55.88 127 0)
+		(at 241.3 72.39 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9767,9 +11171,9 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "0f14a395-4d92-4c17-8933-8fa304c79731")
+		(uuid "01b92ec8-f5a7-4dd1-87f7-ead5d3e98688")
 		(property "Netclass" "VIDEO"
-			(at 56.5785 124.46 0)
+			(at 241.9985 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9778,7 +11182,69 @@
 			)
 		)
 		(property "Component Class" ""
-			(at 0 0 0)
+			(at 170.18 50.165 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 210.82 82.55 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "06aa564b-5ec7-4d07-a545-269ddce3547e")
+		(property "Netclass" "VIDEO"
+			(at 211.5185 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 139.7 60.325 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 271.78 72.39 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "09708db7-06a0-4212-828b-84893cdd776b")
+		(property "Netclass" "VIDEO"
+			(at 272.4785 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 200.66 50.165 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9883,6 +11349,68 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
+		(at 241.3 82.55 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "238e9e4b-8019-4f44-b7a0-836588c3e560")
+		(property "Netclass" "VIDEO"
+			(at 241.9985 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 170.18 60.325 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 210.82 57.15 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "239cc8c2-5cad-4bcf-9460-664ba8402e58")
+		(property "Netclass" "VIDEO"
+			(at 211.5185 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 139.7 34.925 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
 		(at 62.23 66.04 0)
 		(fields_autoplaced yes)
 		(effects
@@ -9914,7 +11442,38 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 55.88 22.86 0)
+		(at 271.78 77.47 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2c6ee6fb-6538-4b4f-ae37-1d86f62a4307")
+		(property "Netclass" "VIDEO"
+			(at 272.4785 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 200.66 55.245 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 62.23 22.86 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9924,7 +11483,7 @@
 		)
 		(uuid "3beed814-8723-4aa0-a90e-a791a9d03c8e")
 		(property "Netclass" "VIDEO"
-			(at 56.5785 20.32 0)
+			(at 62.9285 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9933,7 +11492,7 @@
 			)
 		)
 		(property "Component Class" ""
-			(at 0 0 0)
+			(at 6.35 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9945,7 +11504,7 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 134.62 21.59 0)
+		(at 241.3 67.31 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9953,9 +11512,9 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "46a08835-8f97-43c3-bb6f-f20ad8818589")
+		(uuid "48d4d87e-db14-4940-8a6a-5d89a8955855")
 		(property "Netclass" "VIDEO"
-			(at 135.3185 19.05 0)
+			(at 241.9985 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9964,100 +11523,7 @@
 			)
 		)
 		(property "Component Class" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape round)
-		(at 40.64 44.45 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "475cf2d7-421c-46a5-83d7-3e2b1ff86790")
-		(property "Netclass" "VIDEO"
-			(at 41.3385 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape round)
-		(at 40.64 22.86 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4804e8b1-9f0f-4ef2-98f3-00173d8ad315")
-		(property "Netclass" "VIDEO"
-			(at 41.3385 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at -13.335 2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape round)
-		(at 40.64 127 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "48dfb28e-9961-4105-b238-57ed1623f66d")
-		(property "Netclass" "VIDEO"
-			(at 41.3385 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at 0 0 0)
+			(at 170.18 45.085 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10100,7 +11566,7 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 62.23 105.41 0)
+		(at 271.78 62.23 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10108,9 +11574,9 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "528f4651-91bb-4985-b5a0-ffa781e1e37a")
+		(uuid "51d6c8ec-f234-4ff6-b516-a6481781a0a1")
 		(property "Netclass" "VIDEO"
-			(at 62.9285 102.87 0)
+			(at 272.4785 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10119,7 +11585,7 @@
 			)
 		)
 		(property "Component Class" ""
-			(at 0 0 0)
+			(at 200.66 40.005 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10131,7 +11597,7 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 149.86 21.59 0)
+		(at 62.23 105.41 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10139,9 +11605,9 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "54bc6221-ebb4-4e3a-bdb2-709a0c86df35")
+		(uuid "528f4651-91bb-4985-b5a0-ffa781e1e37a")
 		(property "Netclass" "VIDEO"
-			(at 150.5585 19.05 0)
+			(at 62.9285 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10193,68 +11659,6 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 134.62 64.77 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5aaa0367-0a4d-4517-827f-0d76a5e4fdf8")
-		(property "Netclass" "VIDEO"
-			(at 135.3185 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at 0.635 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape round)
-		(at 62.23 22.86 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6395268a-830d-4127-84e7-af2af327a348")
-		(property "Netclass" "VIDEO"
-			(at 62.9285 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape round)
 		(at 128.27 21.59 0)
 		(fields_autoplaced yes)
 		(effects
@@ -10286,7 +11690,7 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 55.88 148.59 0)
+		(at 210.82 77.47 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10294,9 +11698,9 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "6c1cc5ab-2297-4fe2-b4c2-d015b4dd49fe")
+		(uuid "8796a0d0-3097-45f2-b6c7-5919463957a4")
 		(property "Netclass" "VIDEO"
-			(at 56.5785 146.05 0)
+			(at 211.5185 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10305,7 +11709,7 @@
 			)
 		)
 		(property "Component Class" ""
-			(at 0 -0.635 0)
+			(at 139.7 55.245 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10317,7 +11721,7 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 149.86 43.18 0)
+		(at 210.82 67.31 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10325,9 +11729,9 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "6c876fbd-1f81-439e-9d40-9a0efca158fa")
+		(uuid "8b4a9313-a1cf-449e-9a8f-f9f2b395d0cb")
 		(property "Netclass" "VIDEO"
-			(at 150.5585 40.64 0)
+			(at 211.5185 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10336,69 +11740,7 @@
 			)
 		)
 		(property "Component Class" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape round)
-		(at 40.64 66.04 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "799962cd-129b-4f02-a926-8ff75fdb1d5d")
-		(property "Netclass" "VIDEO"
-			(at 41.3385 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape round)
-		(at 55.88 66.04 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8d7d2d98-14e4-462c-8b99-3a1043990947")
-		(property "Netclass" "VIDEO"
-			(at 56.5785 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at 0 0 0)
+			(at 139.7 45.085 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10472,7 +11814,7 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 55.88 105.41 0)
+		(at 210.82 62.23 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10480,9 +11822,9 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "9fdf6969-3350-449b-8d92-40d0b8f5bc4c")
+		(uuid "a0688675-3500-46b3-8cb3-669b7cfecff1")
 		(property "Netclass" "VIDEO"
-			(at 56.5785 102.87 0)
+			(at 211.5185 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10491,7 +11833,38 @@
 			)
 		)
 		(property "Component Class" ""
-			(at 0 0 0)
+			(at 139.7 40.005 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 241.3 57.15 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a0bfd9cd-541c-477e-9485-5efcb7bbf168")
+		(property "Netclass" "VIDEO"
+			(at 241.9985 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 170.18 34.925 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10534,7 +11907,7 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 40.64 148.59 0)
+		(at 241.3 62.23 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10542,9 +11915,9 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "bcfb7112-7050-4acf-ab7c-06c4b8f1eabc")
+		(uuid "b1815e95-53cd-47ec-a7e2-ac265ea8330a")
 		(property "Netclass" "VIDEO"
-			(at 41.3385 146.05 0)
+			(at 241.9985 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10553,7 +11926,7 @@
 			)
 		)
 		(property "Component Class" ""
-			(at 0 0 0)
+			(at 170.18 40.005 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10565,7 +11938,7 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 40.64 105.41 0)
+		(at 271.78 57.15 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10573,9 +11946,9 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "bedfdb08-4467-47ae-bb4e-b8cc7f7c2acc")
+		(uuid "b51acb33-7543-40bc-9e04-64b0d7fd3db1")
 		(property "Netclass" "VIDEO"
-			(at 41.3385 102.87 0)
+			(at 272.4785 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10584,7 +11957,69 @@
 			)
 		)
 		(property "Component Class" ""
-			(at 0 0 0)
+			(at 200.66 34.925 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 271.78 67.31 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b8c868d2-0c4c-44bd-a2c7-32de02f6f685")
+		(property "Netclass" "VIDEO"
+			(at 272.4785 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 200.66 45.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 271.78 82.55 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c0c8747a-8ecf-4fc8-a005-4b57b39fc2a9")
+		(property "Netclass" "VIDEO"
+			(at 272.4785 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 200.66 60.325 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10720,7 +12155,7 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 134.62 43.18 0)
+		(at 241.3 77.47 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10728,9 +12163,9 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "eb165cd9-6f2e-4682-9cbf-60ee81cf02fc")
+		(uuid "ed50484d-45bd-4f10-8fa0-1ae3cda1ff05")
 		(property "Netclass" "VIDEO"
-			(at 135.3185 40.64 0)
+			(at 241.9985 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10739,7 +12174,38 @@
 			)
 		)
 		(property "Component Class" ""
-			(at 0 0 0)
+			(at 170.18 55.245 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 210.82 72.39 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "efc6b4ab-0c16-441d-bd23-28959509f4a2")
+		(property "Netclass" "VIDEO"
+			(at 211.5185 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 139.7 50.165 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10793,68 +12259,6 @@
 		(uuid "f25e9c44-8e18-4713-b2f3-5591a6da0a97")
 		(property "Netclass" "VIDEO"
 			(at 62.9285 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape round)
-		(at 55.88 44.45 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f4721b4f-49da-403c-b38d-96ed8df0cec9")
-		(property "Netclass" "VIDEO"
-			(at 56.5785 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape round)
-		(at 149.86 64.77 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "fd0dd48c-0674-4b86-90bd-b225444abb6a")
-		(property "Netclass" "VIDEO"
-			(at 150.5585 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11341,6 +12745,74 @@
 				(path "/27d99f64-5b59-4054-806e-9fbbdd7153e5/c1284241-b65d-4b10-93e0-c9e4a3c74400"
 					(reference "U502")
 					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_TVS_Filled")
+		(at 219.71 62.23 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "05b0d82f-99bc-4e4b-a592-112702bb9d95")
+		(property "Reference" "D502"
+			(at 219.71 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D_TVS_Filled"
+			(at 219.71 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 219.71 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 219.71 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bidirectional transient-voltage-suppression diode, filled shape"
+			(at 219.71 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2ef34165-8e7e-4ef3-bbbc-d06a72c92a14")
+		)
+		(pin "2"
+			(uuid "60d65b02-6486-49fb-bdbe-83eb115b10ca")
+		)
+		(instances
+			(project "avswitch"
+				(path "/27d99f64-5b59-4054-806e-9fbbdd7153e5/c1284241-b65d-4b10-93e0-c9e4a3c74400"
+					(reference "D502")
+					(unit 1)
 				)
 			)
 		)
@@ -13778,6 +15250,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 284.48 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "199779c0-110b-47d3-bcd7-ae32f3654861")
+		(property "Reference" "#PWR0591"
+			(at 284.48 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 284.48 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 284.48 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 284.48 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 284.48 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "01fab6a8-0748-4712-82b8-c1aa1c88cb45")
+		)
+		(instances
+			(project "avswitch"
+				(path "/27d99f64-5b59-4054-806e-9fbbdd7153e5/c1284241-b65d-4b10-93e0-c9e4a3c74400"
+					(reference "#PWR0591")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 82.55 25.4 90)
 		(unit 1)
@@ -15236,6 +16775,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D_TVS_Filled")
+		(at 219.71 57.15 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2bc20800-8920-459e-9e59-b4391913d5ef")
+		(property "Reference" "D501"
+			(at 219.71 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D_TVS_Filled"
+			(at 219.71 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 219.71 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 219.71 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bidirectional transient-voltage-suppression diode, filled shape"
+			(at 219.71 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "90bdb7ce-6a25-4c10-830c-4afe5023d920")
+		)
+		(pin "2"
+			(uuid "4730a7ee-c489-4981-bc20-b2ec4fd78904")
+		)
+		(instances
+			(project ""
+				(path "/27d99f64-5b59-4054-806e-9fbbdd7153e5/c1284241-b65d-4b10-93e0-c9e4a3c74400"
+					(reference "D501")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 62.23 134.62 0)
 		(unit 1)
@@ -15639,6 +17246,74 @@
 			(project "avswitch"
 				(path "/27d99f64-5b59-4054-806e-9fbbdd7153e5/c1284241-b65d-4b10-93e0-c9e4a3c74400"
 					(reference "#PWR0542")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_TVS_Filled")
+		(at 280.67 67.31 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2ee0a0ed-cb20-4813-9101-9d59ca9ddd82")
+		(property "Reference" "D515"
+			(at 280.67 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D_TVS_Filled"
+			(at 280.67 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 280.67 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 280.67 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bidirectional transient-voltage-suppression diode, filled shape"
+			(at 280.67 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "085cd683-434a-407c-a9d7-0168cc46d4d5")
+		)
+		(pin "2"
+			(uuid "19514a44-a2b8-4450-8aa7-333902e861d1")
+		)
+		(instances
+			(project "avswitch"
+				(path "/27d99f64-5b59-4054-806e-9fbbdd7153e5/c1284241-b65d-4b10-93e0-c9e4a3c74400"
+					(reference "D515")
 					(unit 1)
 				)
 			)
@@ -16686,6 +18361,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D_TVS_Filled")
+		(at 219.71 67.31 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "424db4fc-1ea9-4afe-9b55-eca5d1ce0726")
+		(property "Reference" "D503"
+			(at 219.71 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D_TVS_Filled"
+			(at 219.71 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 219.71 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 219.71 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bidirectional transient-voltage-suppression diode, filled shape"
+			(at 219.71 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "17959589-ad7e-4969-9470-048323ac47a2")
+		)
+		(pin "2"
+			(uuid "f4861dc0-926c-4a56-8478-8778fffaa85b")
+		)
+		(instances
+			(project "avswitch"
+				(path "/27d99f64-5b59-4054-806e-9fbbdd7153e5/c1284241-b65d-4b10-93e0-c9e4a3c74400"
+					(reference "D503")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "RS8754_1")
 		(lib_id "avswitch:RS8754")
 		(at 26.67 100.33 0)
@@ -17565,6 +19308,74 @@
 				(path "/27d99f64-5b59-4054-806e-9fbbdd7153e5/c1284241-b65d-4b10-93e0-c9e4a3c74400"
 					(reference "CONN503")
 					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_TVS_Filled")
+		(at 280.67 62.23 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4eb9e9f5-39c5-4167-9a68-75327ed8196e")
+		(property "Reference" "D514"
+			(at 280.67 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D_TVS_Filled"
+			(at 280.67 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 280.67 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 280.67 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bidirectional transient-voltage-suppression diode, filled shape"
+			(at 280.67 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a7ed994f-2c1d-4fa4-8077-27278ab0eef1")
+		)
+		(pin "2"
+			(uuid "73bf3ee2-72b0-4feb-a647-d1eaead9b893")
+		)
+		(instances
+			(project "avswitch"
+				(path "/27d99f64-5b59-4054-806e-9fbbdd7153e5/c1284241-b65d-4b10-93e0-c9e4a3c74400"
+					(reference "D514")
+					(unit 1)
 				)
 			)
 		)
@@ -18476,6 +20287,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D_TVS_Filled")
+		(at 280.67 57.15 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "56fd9e3b-11d0-4528-bf1c-340112eece51")
+		(property "Reference" "D513"
+			(at 280.67 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D_TVS_Filled"
+			(at 280.67 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 280.67 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 280.67 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bidirectional transient-voltage-suppression diode, filled shape"
+			(at 280.67 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0a9e0da3-95f8-4954-88f8-16bf783067a6")
+		)
+		(pin "2"
+			(uuid "84e907a5-670d-4540-8365-d9ae51866d92")
+		)
+		(instances
+			(project "avswitch"
+				(path "/27d99f64-5b59-4054-806e-9fbbdd7153e5/c1284241-b65d-4b10-93e0-c9e4a3c74400"
+					(reference "D513")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 176.53 17.78 90)
 		(unit 1)
@@ -19261,6 +21140,74 @@
 			(project "avswitch"
 				(path "/27d99f64-5b59-4054-806e-9fbbdd7153e5/c1284241-b65d-4b10-93e0-c9e4a3c74400"
 					(reference "#PWR0569")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_TVS_Filled")
+		(at 280.67 72.39 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "65be87f4-c11f-4253-97e4-5c7e78975397")
+		(property "Reference" "D516"
+			(at 280.67 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D_TVS_Filled"
+			(at 280.67 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 280.67 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 280.67 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bidirectional transient-voltage-suppression diode, filled shape"
+			(at 280.67 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "458e49ae-d071-47c3-95de-e501195af95d")
+		)
+		(pin "2"
+			(uuid "a044b009-36ff-4a63-8b88-5beff8830fa3")
+		)
+		(instances
+			(project "avswitch"
+				(path "/27d99f64-5b59-4054-806e-9fbbdd7153e5/c1284241-b65d-4b10-93e0-c9e4a3c74400"
+					(reference "D516")
 					(unit 1)
 				)
 			)
@@ -20178,6 +22125,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D_TVS_Filled")
+		(at 250.19 57.15 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "73826dc2-9585-4372-9fea-654ca5c610ee")
+		(property "Reference" "D507"
+			(at 250.19 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D_TVS_Filled"
+			(at 250.19 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 250.19 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 250.19 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bidirectional transient-voltage-suppression diode, filled shape"
+			(at 250.19 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a3cc98f7-f767-49ec-920c-4c0b822fcc20")
+		)
+		(pin "2"
+			(uuid "ef01972b-6dee-42d4-b103-0489b0e4770e")
+		)
+		(instances
+			(project "avswitch"
+				(path "/27d99f64-5b59-4054-806e-9fbbdd7153e5/c1284241-b65d-4b10-93e0-c9e4a3c74400"
+					(reference "D507")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 59.69 44.45 90)
 		(unit 1)
@@ -20831,6 +22846,74 @@
 				)
 				(path "/27d99f64-5b59-4054-806e-9fbbdd7153e5/c1284241-b65d-4b10-93e0-c9e4a3c74400"
 					(reference "R513")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_TVS_Filled")
+		(at 219.71 82.55 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7ba4138f-124e-451f-aa60-f8b8983adffa")
+		(property "Reference" "D506"
+			(at 219.71 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D_TVS_Filled"
+			(at 219.71 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 219.71 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 219.71 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bidirectional transient-voltage-suppression diode, filled shape"
+			(at 219.71 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f02fa9b4-c6c0-45f3-8780-e0974ca66294")
+		)
+		(pin "2"
+			(uuid "a7307fc6-55e3-46f9-ba8d-4f109891ac5f")
+		)
+		(instances
+			(project "avswitch"
+				(path "/27d99f64-5b59-4054-806e-9fbbdd7153e5/c1284241-b65d-4b10-93e0-c9e4a3c74400"
+					(reference "D506")
 					(unit 1)
 				)
 			)
@@ -21642,6 +23725,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 223.52 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "863ecdbd-5825-44cd-9cd0-8f07216a1736")
+		(property "Reference" "#PWR0586"
+			(at 223.52 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 223.52 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 223.52 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 223.52 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0d7a6e47-ddc9-481f-b5eb-4f70187e07d4")
+		)
+		(instances
+			(project "avswitch"
+				(path "/27d99f64-5b59-4054-806e-9fbbdd7153e5/c1284241-b65d-4b10-93e0-c9e4a3c74400"
+					(reference "#PWR0586")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 172.72 27.94 180)
 		(unit 1)
@@ -21847,6 +23997,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D_TVS_Filled")
+		(at 250.19 82.55 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "88461ba7-6a83-414b-b160-c8284a284e18")
+		(property "Reference" "D512"
+			(at 250.19 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D_TVS_Filled"
+			(at 250.19 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 250.19 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 250.19 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bidirectional transient-voltage-suppression diode, filled shape"
+			(at 250.19 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9d32f366-ea43-41fe-9f35-6812759f4ad8")
+		)
+		(pin "2"
+			(uuid "512a9d94-9079-4c31-979c-32ba8d29a654")
+		)
+		(instances
+			(project "avswitch"
+				(path "/27d99f64-5b59-4054-806e-9fbbdd7153e5/c1284241-b65d-4b10-93e0-c9e4a3c74400"
+					(reference "D512")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 128.27 90.17 0)
 		(unit 1)
@@ -21975,6 +24193,74 @@
 			(project "avswitch"
 				(path "/27d99f64-5b59-4054-806e-9fbbdd7153e5/c1284241-b65d-4b10-93e0-c9e4a3c74400"
 					(reference "#PWR0574")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_TVS_Filled")
+		(at 280.67 82.55 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8e58363c-6549-44c2-9e23-8fcae4cb0c19")
+		(property "Reference" "D518"
+			(at 280.67 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D_TVS_Filled"
+			(at 280.67 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 280.67 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 280.67 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bidirectional transient-voltage-suppression diode, filled shape"
+			(at 280.67 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9e9559f6-3721-49f1-ab8e-e3b0a537c633")
+		)
+		(pin "2"
+			(uuid "ae3b96f8-038e-44d7-bc7c-f619ba527fbc")
+		)
+		(instances
+			(project "avswitch"
+				(path "/27d99f64-5b59-4054-806e-9fbbdd7153e5/c1284241-b65d-4b10-93e0-c9e4a3c74400"
+					(reference "D518")
 					(unit 1)
 				)
 			)
@@ -22360,6 +24646,74 @@
 			(project "avswitch"
 				(path "/27d99f64-5b59-4054-806e-9fbbdd7153e5/c1284241-b65d-4b10-93e0-c9e4a3c74400"
 					(reference "R582")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_TVS_Filled")
+		(at 250.19 72.39 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "934a257a-4983-4586-9719-8ebaa01a9121")
+		(property "Reference" "D510"
+			(at 250.19 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D_TVS_Filled"
+			(at 250.19 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 250.19 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 250.19 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bidirectional transient-voltage-suppression diode, filled shape"
+			(at 250.19 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "941ee769-117a-4c1c-a6b9-5311d0d6925a")
+		)
+		(pin "2"
+			(uuid "41b65f73-7c89-4ad0-a9ed-d550ed071ad8")
+		)
+		(instances
+			(project "avswitch"
+				(path "/27d99f64-5b59-4054-806e-9fbbdd7153e5/c1284241-b65d-4b10-93e0-c9e4a3c74400"
+					(reference "D510")
 					(unit 1)
 				)
 			)
@@ -23543,6 +25897,74 @@
 			(project "avswitch"
 				(path "/27d99f64-5b59-4054-806e-9fbbdd7153e5/c1284241-b65d-4b10-93e0-c9e4a3c74400"
 					(reference "#PWR0504")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_TVS_Filled")
+		(at 219.71 77.47 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a43e9b0e-5ca5-41a6-bea2-e9ab559ed3b4")
+		(property "Reference" "D505"
+			(at 219.71 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D_TVS_Filled"
+			(at 219.71 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 219.71 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 219.71 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bidirectional transient-voltage-suppression diode, filled shape"
+			(at 219.71 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8cc1c765-9ced-4db1-a2d6-440a515b5386")
+		)
+		(pin "2"
+			(uuid "d1e438a6-9020-4396-b046-b24aa829c98e")
+		)
+		(instances
+			(project "avswitch"
+				(path "/27d99f64-5b59-4054-806e-9fbbdd7153e5/c1284241-b65d-4b10-93e0-c9e4a3c74400"
+					(reference "D505")
 					(unit 1)
 				)
 			)
@@ -24917,6 +27339,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D_TVS_Filled")
+		(at 280.67 77.47 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bc4ccbc9-8b07-4ac5-8418-ef8d7b6f69b8")
+		(property "Reference" "D517"
+			(at 280.67 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D_TVS_Filled"
+			(at 280.67 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 280.67 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 280.67 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bidirectional transient-voltage-suppression diode, filled shape"
+			(at 280.67 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "643b17b2-8021-42cf-be1b-e6f459af59b6")
+		)
+		(pin "2"
+			(uuid "4417e613-83f7-425e-bcb9-32aecbc9ecfd")
+		)
+		(instances
+			(project "avswitch"
+				(path "/27d99f64-5b59-4054-806e-9fbbdd7153e5/c1284241-b65d-4b10-93e0-c9e4a3c74400"
+					(reference "D517")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 153.67 43.18 90)
 		(unit 1)
@@ -25459,6 +27949,74 @@
 			(project ""
 				(path "/27d99f64-5b59-4054-806e-9fbbdd7153e5/c1284241-b65d-4b10-93e0-c9e4a3c74400"
 					(reference "R548")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_TVS_Filled")
+		(at 250.19 67.31 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c5c4cbe6-3cbb-4509-9de6-221efc1cebb5")
+		(property "Reference" "D509"
+			(at 250.19 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D_TVS_Filled"
+			(at 250.19 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 250.19 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 250.19 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bidirectional transient-voltage-suppression diode, filled shape"
+			(at 250.19 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5d78e242-9458-4142-b231-30da69569511")
+		)
+		(pin "2"
+			(uuid "4d3a389f-5539-4074-ac15-44c7011eabc3")
+		)
+		(instances
+			(project "avswitch"
+				(path "/27d99f64-5b59-4054-806e-9fbbdd7153e5/c1284241-b65d-4b10-93e0-c9e4a3c74400"
+					(reference "D509")
 					(unit 1)
 				)
 			)
@@ -26571,6 +29129,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D_TVS_Filled")
+		(at 250.19 62.23 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d57d7fbf-5d24-4602-992e-89d5f34e90cf")
+		(property "Reference" "D508"
+			(at 250.19 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D_TVS_Filled"
+			(at 250.19 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 250.19 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 250.19 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bidirectional transient-voltage-suppression diode, filled shape"
+			(at 250.19 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a53af4aa-cccc-4f07-a09f-62c2fa81fff7")
+		)
+		(pin "2"
+			(uuid "b3841597-5a52-40ba-a9f7-9ed017afb290")
+		)
+		(instances
+			(project "avswitch"
+				(path "/27d99f64-5b59-4054-806e-9fbbdd7153e5/c1284241-b65d-4b10-93e0-c9e4a3c74400"
+					(reference "D508")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 62.23 113.03 0)
 		(unit 1)
@@ -26944,6 +29570,74 @@
 			(project ""
 				(path "/27d99f64-5b59-4054-806e-9fbbdd7153e5/c1284241-b65d-4b10-93e0-c9e4a3c74400"
 					(reference "R502")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_TVS_Filled")
+		(at 219.71 72.39 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "db1f3c71-1827-4c06-ba8f-ed7233aa7857")
+		(property "Reference" "D504"
+			(at 219.71 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D_TVS_Filled"
+			(at 219.71 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 219.71 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 219.71 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bidirectional transient-voltage-suppression diode, filled shape"
+			(at 219.71 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "25fcb78b-18ae-4ae5-95a1-f7adae3f6863")
+		)
+		(pin "2"
+			(uuid "f29e5333-44b6-4b27-ac18-4533eae20018")
+		)
+		(instances
+			(project "avswitch"
+				(path "/27d99f64-5b59-4054-806e-9fbbdd7153e5/c1284241-b65d-4b10-93e0-c9e4a3c74400"
+					(reference "D504")
 					(unit 1)
 				)
 			)
@@ -27445,6 +30139,74 @@
 			(project ""
 				(path "/27d99f64-5b59-4054-806e-9fbbdd7153e5/c1284241-b65d-4b10-93e0-c9e4a3c74400"
 					(reference "R525")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_TVS_Filled")
+		(at 250.19 77.47 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e1e2f32d-3f04-4621-901a-cd3170bf9868")
+		(property "Reference" "D511"
+			(at 250.19 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D_TVS_Filled"
+			(at 250.19 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 250.19 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 250.19 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bidirectional transient-voltage-suppression diode, filled shape"
+			(at 250.19 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d7b7dade-6f1f-4212-9165-bc6bbc4cc8c5")
+		)
+		(pin "2"
+			(uuid "8a03ebf0-3bde-46eb-8304-0d424ba3c840")
+		)
+		(instances
+			(project "avswitch"
+				(path "/27d99f64-5b59-4054-806e-9fbbdd7153e5/c1284241-b65d-4b10-93e0-c9e4a3c74400"
+					(reference "D511")
 					(unit 1)
 				)
 			)
@@ -28480,6 +31242,73 @@
 				(path "/27d99f64-5b59-4054-806e-9fbbdd7153e5/c1284241-b65d-4b10-93e0-c9e4a3c74400"
 					(reference "U501")
 					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 254 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "efda5f93-7ab6-4ea5-a12f-9a1d3e49b8b1")
+		(property "Reference" "#PWR0590"
+			(at 254 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 254 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 254 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 254 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 254 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bf849f03-8902-40e4-b4cf-45f4f64601a3")
+		)
+		(instances
+			(project "avswitch"
+				(path "/27d99f64-5b59-4054-806e-9fbbdd7153e5/c1284241-b65d-4b10-93e0-c9e4a3c74400"
+					(reference "#PWR0590")
+					(unit 1)
 				)
 			)
 		)
