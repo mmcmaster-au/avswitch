@@ -3990,7 +3990,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10k"
 			(at 108.712 104.14 0)
 			(effects
 				(font
@@ -4463,7 +4463,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "SameSky RCJ-61562423"
 			(at 72.39 68.58 0)
 			(effects
 				(font
@@ -5033,7 +5033,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10k"
 			(at 227.457 74.93 0)
 			(effects
 				(font
@@ -5103,7 +5103,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10k"
 			(at 36.068 33.02 0)
 			(effects
 				(font
@@ -5820,7 +5820,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "549"
+		(property "Value" "499"
 			(at 241.3 82.55 90)
 			(effects
 				(font
@@ -6093,7 +6093,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "549"
+		(property "Value" "499"
 			(at 91.44 38.1 90)
 			(effects
 				(font
@@ -6370,7 +6370,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10k"
 			(at 166.497 74.93 0)
 			(effects
 				(font
@@ -6910,7 +6910,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "549"
+		(property "Value" "499"
 			(at 91.44 73.66 90)
 			(effects
 				(font
@@ -7221,7 +7221,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "SameSky RCJ-61562423"
 			(at 72.39 33.02 0)
 			(effects
 				(font
@@ -7378,7 +7378,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10k"
 			(at 108.712 68.58 0)
 			(effects
 				(font
@@ -7515,7 +7515,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "SameSky RCJ-61562423"
 			(at 72.39 104.14 0)
 			(effects
 				(font
@@ -7743,7 +7743,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "549"
+		(property "Value" "499"
 			(at 45.72 38.1 90)
 			(effects
 				(font
@@ -8658,7 +8658,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "549"
+		(property "Value" "499"
 			(at 45.72 73.66 90)
 			(effects
 				(font
@@ -8899,7 +8899,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10k"
 			(at 36.068 68.58 0)
 			(effects
 				(font
@@ -8969,7 +8969,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10k"
 			(at 36.068 104.14 0)
 			(effects
 				(font
@@ -9278,7 +9278,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "549"
+		(property "Value" "499"
 			(at 180.34 82.55 90)
 			(effects
 				(font
@@ -9347,7 +9347,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "549"
+		(property "Value" "499"
 			(at 45.72 109.22 90)
 			(effects
 				(font
@@ -9755,7 +9755,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10k"
 			(at 108.712 33.02 0)
 			(effects
 				(font
@@ -10508,7 +10508,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "549"
+		(property "Value" "499"
 			(at 91.44 109.22 90)
 			(effects
 				(font

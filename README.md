@@ -3,6 +3,25 @@ The motivation behind this project is to connect 5 retro game consoles to a TV (
 
 The switch will support both component and composite video to provide some flexibility. All of the consoles support composite video. Most of them support component video, though I don't own all the required cables yet. Some (eg. N64 Pal) require a mod to support component video output. Some (eg. PS2) may need a composite connection to enable the the component output.
 
+## Costs
+The total cost for the project is unreasonable - it's much cheaper and easier to buy a commercial product afterall!
+
+| Item | Supplier | Cost (AUD) | Shipping (AUD)
+| -- | -- | -- | -- |
+| Components | Digikey | $158 | Free |
+| PCB + Stencil | JLPCB | $89 | $32 |
+| Arduino Nano | Aliexpress | TODO | TODO |
+| Case hardware (threaded inserts ?) | Aliexpress | TODO | TODO |
+| Case filament |  | TODO | TODO |
+| Consumables - solder paste, flux | Digikey | $41 | Free |
+| Total | | $298 | $32 |
+
+_Costs as of June 2025. Only part of the consumables were used, but they have a limited shelf life(6 months refridgerated for the paste)_
+
+The highest cost part is the RCA jacks. It would be possible to swap to a cheaper part, but at the cost of proper colour-coding. I like to be able to match colours when plugging in the cables.
+
+The next highest cost part is the opamps. A second version of this project could investigate using a cheaper part (eg. lower bandwidth) and comparing the output.
+
 ## Design
 For aesthetic and cable management reasons I want all RCA connectors to be at rear of the unit. The front of the unit will have a selector button plus a display to indicate which input is selected. The display will also show auto scanning status, assuming I end up implementing such a feature.
 
@@ -48,8 +67,6 @@ The multiplexer device chosen in the 74HC4052D. This is a 4:2 2-channel multiple
 ![output stage circuit](images/output_stage.png "Output Stage circuit")
 
 The output signal is buffered via a 2:1 gain voltage follower to a 75Ω output impedence for connection to a coax cable with 75Ω characteristic impedence. The 2x gain is required as the 75Ω terminting resistor to ground (within the television) forms a voltage divider with the resistor at the output of the opamp.
-
-_actually, the gain is a little higher than 2:1 to account for losses_
 
 ## Display
 The display will be a common 128x32 0.91" OLED panel, based on the SSD1306 Driver IC. Communication is over i2c. Such panels are available very cheap on aliexpress and elsewhere, and they look great. The display requires up to 25mA at 5V.

@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.199998
+          "min_clearance": 0.15
         }
       },
       "diff_pair_dimensions": [
@@ -58,7 +58,32 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "clearance|67324999|133087500|12223bd4-da1e-4aff-b9ee-98c2a0e8af4e|0caec8a0-69f1-4b49-a297-58d98b77c467",
+          ""
+        ],
+        [
+          "clearance|67325000|132587500|0553b041-2a7f-4690-9dc1-0a8680792351|12223bd4-da1e-4aff-b9ee-98c2a0e8af4e",
+          ""
+        ],
+        [
+          "clearance|68750001|132912500|f19cbecd-ec92-4d77-a1c8-340eb8ba29cb|bb21aeb3-c3d2-4199-9c72-f6426c76d74f",
+          ""
+        ],
+        [
+          "clearance|68750001|133412500|3fb4c61d-0757-4c12-b5d4-40ea69b0acbb|f19cbecd-ec92-4d77-a1c8-340eb8ba29cb",
+          ""
+        ],
+        [
+          "courtyards_overlap|240542249|61292893|7453f778-b094-47fe-a219-4365c3279238|bceb3abe-bc97-4d3a-b690-193118a1130c",
+          ""
+        ],
+        [
+          "courtyards_overlap|247152585|49760160|7453f778-b094-47fe-a219-4365c3279238|7d01310a-71f5-4a96-be08-ffb1ae88537a",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -102,7 +127,7 @@
         "shorting_items": "error",
         "silk_edge_clearance": "warning",
         "silk_over_copper": "warning",
-        "silk_overlap": "warning",
+        "silk_overlap": "ignore",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
@@ -820,7 +845,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "gerber/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
@@ -893,12 +918,60 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Library",
+          "name": "Sim.Library",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Name",
+          "name": "Sim.Name",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Params",
+          "name": "Sim.Params",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Type",
+          "name": "Sim.Type",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
-      "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "include_excluded_from_bom": false,
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },

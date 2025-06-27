@@ -9212,7 +9212,7 @@
 				)
 			)
 		)
-		(property "Value" "SamySky UJC-H-G-SMT-2-P6-TR"
+		(property "Value" "SameSky UJC-H-G-SMT-2-P6-TR"
 			(at 28.575 18.415 0)
 			(effects
 				(font
@@ -10059,7 +10059,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "1.0uF"
 			(at 119.126 116.713 0)
 			(effects
 				(font

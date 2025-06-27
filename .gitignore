@@ -27,9 +27,10 @@ fp-info-cache
 *.ses
 
 # Exported BOM files
-*.xml
-*.csv
+avswitch/*.xml
+avswitch/*.csv
 
 # Local files
 switcher.txt
+gerber.zip
 resources/

@@ -12428,7 +12428,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10k"
 			(at 33.782 49.53 0)
 			(effects
 				(font
@@ -12496,7 +12496,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "SameSky RCJ-61562423"
 			(at 48.26 107.95 0)
 			(effects
 				(font
@@ -13728,7 +13728,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "SameSky RCJ-61562423"
 			(at 48.26 46.99 0)
 			(effects
 				(font
@@ -14407,7 +14407,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10k"
 			(at 61.214 71.12 0)
 			(effects
 				(font
@@ -16378,7 +16378,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10k"
 			(at 33.782 153.67 0)
 			(effects
 				(font
@@ -17901,7 +17901,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10k"
 			(at 61.214 110.49 0)
 			(effects
 				(font
@@ -19236,7 +19236,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "SameSky RCJ-61562423"
 			(at 142.24 67.31 0)
 			(effects
 				(font
@@ -19466,7 +19466,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "SameSky RCJ-61562423"
 			(at 142.24 45.72 0)
 			(effects
 				(font
@@ -21299,7 +21299,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "SameSky RCJ-61562423"
 			(at 48.26 129.54 0)
 			(effects
 				(font
@@ -21594,7 +21594,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10k"
 			(at 127.762 69.85 0)
 			(effects
 				(font
@@ -23451,7 +23451,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10k"
 			(at 33.782 71.12 0)
 			(effects
 				(font
@@ -23945,7 +23945,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10k"
 			(at 33.782 27.94 0)
 			(effects
 				(font
@@ -25156,7 +25156,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10k"
 			(at 33.782 110.49 0)
 			(effects
 				(font
@@ -25359,7 +25359,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10k"
 			(at 155.194 26.67 0)
 			(effects
 				(font
@@ -25495,7 +25495,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10k"
 			(at 33.782 132.08 0)
 			(effects
 				(font
@@ -26329,7 +26329,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10k"
 			(at 155.194 69.85 0)
 			(effects
 				(font
@@ -26398,7 +26398,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10k"
 			(at 155.194 48.26 0)
 			(effects
 				(font
@@ -26851,7 +26851,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10k"
 			(at 61.214 153.67 0)
 			(effects
 				(font
@@ -26986,7 +26986,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "SameSky RCJ-61562423"
 			(at 48.26 68.58 0)
 			(effects
 				(font
@@ -27287,7 +27287,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10k"
 			(at 61.214 49.53 0)
 			(effects
 				(font
@@ -27767,7 +27767,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10k"
 			(at 127.762 26.67 0)
 			(effects
 				(font
@@ -28829,7 +28829,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10k"
 			(at 61.214 132.08 0)
 			(effects
 				(font
@@ -30093,7 +30093,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10k"
 			(at 61.214 27.94 0)
 			(effects
 				(font
@@ -30675,7 +30675,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "SameSky RCJ-61562423"
 			(at 142.24 24.13 0)
 			(effects
 				(font
@@ -31018,7 +31018,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10k"
 			(at 127.762 48.26 0)
 			(effects
 				(font
@@ -31466,7 +31466,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "SameSky RCJ-61562423"
 			(at 48.26 25.4 0)
 			(effects
 				(font
@@ -32327,7 +32327,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "SameSky RCJ-61562423"
 			(at 48.26 151.13 0)
 			(effects
 				(font
