@@ -7852,7 +7852,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Screw_Terminal_01x03"
+		(property "Value" "Screw_Terminal_01x04"
 			(at 238.76 83.8201 0)
 			(effects
 				(font

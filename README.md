@@ -16,7 +16,7 @@ The total cost for the project is unreasonable - it's much cheaper and easier to
 | Consumables - solder paste, flux | Digikey | $41 | Free |
 | Total | | $298 | $32 |
 
-_Costs as of June 2025. Only part of the consumables were used, but they have a limited shelf life(6 months refridgerated for the paste)_
+_Costs as of June 2025. Only part of the consumables were used, but they have a limited shelf life(6 months refrigerated for the paste)_
 
 The highest cost part is the RCA jacks. It would be possible to swap to a cheaper part, but at the cost of proper colour-coding. I like to be able to match colours when plugging in the cables.
 
