@@ -18,9 +18,21 @@ The total cost for the project is unreasonable - it's much cheaper and easier to
 
 _Costs as of June 2025. Only part of the consumables were used, but they have a limited shelf life(6 months refrigerated for the paste)_
 
-The highest cost part is the RCA jacks. It would be possible to swap to a cheaper part, but at the cost of proper colour-coding. I like to be able to match colours when plugging in the cables.
+The highest cost part is the RCA jacks. It would be possible to swap to a cheaper part, but at the cost of proper colour-coding. I like to be able to match colours when plugging in the cables. Paint or stickers could be a cheaper alternative.
 
 The next highest cost part is the opamps. A second version of this project could investigate using a cheaper part (eg. lower bandwidth) and comparing the output.
+
+## Build Log
+### 2025-10-12 - SMD Soldering
+Success! The power supply produces ±2.5V from a standard USB-C cable + wall charger. There's nothing else worth testing until the through-hole parts are soldered.
+
+I spent 5 hours placing both boards with tweezers. There are many, many parts to place.
+
+Soldering was performed using a [Whizoo Controleo 3](https://whizoo.com/) powered toaster oven with [Chip Quik SMD291SNL](https://www.chipquik.com/datasheets/SMD291SNL.pdf) lead-free paste.
+
+Part U401, a TPS561243DRLR in a SOT-563 package is very small. I had great difficulty in determining the correct orientation as the pin 1 marking was too small for my old eyes to see.
+
+The solder pads of the TVS diodes is unnecessarily small. A few diodes will need some rework with the hot-air station. This issue could be fixed in a PCB revision to make placement easier.
 
 ## Design
 For aesthetic and cable management reasons I want all RCA connectors to be at rear of the unit. The front of the unit will have a selector button plus a display to indicate which input is selected. The display will also show auto scanning status, assuming I end up implementing such a feature.
