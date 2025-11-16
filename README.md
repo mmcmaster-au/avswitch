@@ -23,6 +23,14 @@ The highest cost part is the RCA jacks. It would be possible to swap to a cheape
 The next highest cost part is the opamps. A second version of this project could investigate using a cheaper part (eg. lower bandwidth) and comparing the output.
 
 ## Build Log
+### 2025-11-16 - First test
+Success! The video input and output works well.
+
+What isn't so great:
+- The sound volume is very low. I made an assumption that audio works the same as 75Ω video, and that assumption is wrong. [Line-level audio impendence](https://en.wikipedia.org/wiki/Line_level) should be around 100Ω to 200Ω for output, and 10kΩ-50kΩ for input. 10kΩ is very different from 75Ω!
+- Mixup with soldering R711, R713, R715 on the top board. These should be on the lower board and vice-versa. The mixup means it's not possible to use any inputs on the top board. I could fixup the resistors on the existing board.
+- Error in the schematic with inconsistent inputs being fed into the switch IC inputs. eg.`X1` is connected to `Pr2`, but `Y1` is connected to `Comp4`. There is only a single control to switch both `X` and `Y`. It could be possible to rework the existing board by cutting traces etc, but seems easier to just move on to a second revision.
+
 ### 2025-10-12 - SMD Soldering
 Success! The power supply produces ±2.5V from a standard USB-C cable + wall charger. There's nothing else worth testing until the through-hole parts are soldered.
 
